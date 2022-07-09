@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.degenerate;
+})();
 })();
 </script>
 ```
@@ -135,9 +137,11 @@ The namespace contains a constructor function for creating a degenerate distribu
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( degenerate ) );
 
+})();
 })();
 </script>
 </body>
@@ -227,35 +231,35 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/degenerate/ctor]: https://github.com/stdlib-js/stats-base-dists-degenerate-ctor/tree/umd
+[@stdlib/stats/base/dists/degenerate/ctor]: https://github.com/stdlib-js/stats-base-dists-degenerate-ctor/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/entropy]: https://github.com/stdlib-js/stats-base-dists-degenerate-entropy/tree/umd
+[@stdlib/stats/base/dists/degenerate/entropy]: https://github.com/stdlib-js/stats-base-dists-degenerate-entropy/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/mean]: https://github.com/stdlib-js/stats-base-dists-degenerate-mean/tree/umd
+[@stdlib/stats/base/dists/degenerate/mean]: https://github.com/stdlib-js/stats-base-dists-degenerate-mean/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/median]: https://github.com/stdlib-js/stats-base-dists-degenerate-median/tree/umd
+[@stdlib/stats/base/dists/degenerate/median]: https://github.com/stdlib-js/stats-base-dists-degenerate-median/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/mode]: https://github.com/stdlib-js/stats-base-dists-degenerate-mode/tree/umd
+[@stdlib/stats/base/dists/degenerate/mode]: https://github.com/stdlib-js/stats-base-dists-degenerate-mode/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/stdev]: https://github.com/stdlib-js/stats-base-dists-degenerate-stdev/tree/umd
+[@stdlib/stats/base/dists/degenerate/stdev]: https://github.com/stdlib-js/stats-base-dists-degenerate-stdev/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/variance]: https://github.com/stdlib-js/stats-base-dists-degenerate-variance/tree/umd
+[@stdlib/stats/base/dists/degenerate/variance]: https://github.com/stdlib-js/stats-base-dists-degenerate-variance/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/cdf]: https://github.com/stdlib-js/stats-base-dists-degenerate-cdf/tree/umd
+[@stdlib/stats/base/dists/degenerate/cdf]: https://github.com/stdlib-js/stats-base-dists-degenerate-cdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/logcdf]: https://github.com/stdlib-js/stats-base-dists-degenerate-logcdf/tree/umd
+[@stdlib/stats/base/dists/degenerate/logcdf]: https://github.com/stdlib-js/stats-base-dists-degenerate-logcdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/logpdf]: https://github.com/stdlib-js/stats-base-dists-degenerate-logpdf/tree/umd
+[@stdlib/stats/base/dists/degenerate/logpdf]: https://github.com/stdlib-js/stats-base-dists-degenerate-logpdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/logpmf]: https://github.com/stdlib-js/stats-base-dists-degenerate-logpmf/tree/umd
+[@stdlib/stats/base/dists/degenerate/logpmf]: https://github.com/stdlib-js/stats-base-dists-degenerate-logpmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/mgf]: https://github.com/stdlib-js/stats-base-dists-degenerate-mgf/tree/umd
+[@stdlib/stats/base/dists/degenerate/mgf]: https://github.com/stdlib-js/stats-base-dists-degenerate-mgf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/pdf]: https://github.com/stdlib-js/stats-base-dists-degenerate-pdf/tree/umd
+[@stdlib/stats/base/dists/degenerate/pdf]: https://github.com/stdlib-js/stats-base-dists-degenerate-pdf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/pmf]: https://github.com/stdlib-js/stats-base-dists-degenerate-pmf/tree/umd
+[@stdlib/stats/base/dists/degenerate/pmf]: https://github.com/stdlib-js/stats-base-dists-degenerate-pmf/tree/umd/tree/umd
 
-[@stdlib/stats/base/dists/degenerate/quantile]: https://github.com/stdlib-js/stats-base-dists-degenerate-quantile/tree/umd
+[@stdlib/stats/base/dists/degenerate/quantile]: https://github.com/stdlib-js/stats-base-dists-degenerate-quantile/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
