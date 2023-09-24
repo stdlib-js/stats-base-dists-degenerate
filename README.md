@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@deno/mod.js';
+import degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Degenerate, cdf, entropy, logcdf, logpdf, logpmf, mean, median, mgf, mode, pdf, pmf, quantile, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@deno/mod.js';
+import { Degenerate, cdf, entropy, logcdf, logpdf, logpmf, mean, median, mgf, mode, pdf, pmf, quantile, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@v0.1.0-deno/mod.js';
 ```
 
 #### degenerate
@@ -122,7 +122,7 @@ The namespace contains a constructor function for creating a degenerate distribu
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@deno/mod.js';
+import degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( degenerate ) );
 ```
