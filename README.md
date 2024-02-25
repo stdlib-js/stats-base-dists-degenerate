@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-degenerate/tags). For example,
+
+```javascript
 import degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Degenerate, cdf, entropy, logcdf, logpdf, logpmf, mean, median, mgf, mode, pdf, pmf, quantile, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@v0.2.1-deno/mod.js';
+import { Degenerate, cdf, entropy, logcdf, logpdf, logpmf, mean, median, mgf, mode, pdf, pmf, quantile, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@deno/mod.js';
 ```
 
 #### degenerate
@@ -122,7 +127,7 @@ The namespace contains a constructor function for creating a degenerate distribu
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@v0.2.1-deno/mod.js';
+import degenerate from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate@deno/mod.js';
 
 console.log( objectKeys( degenerate ) );
 ```
