@@ -4,22 +4,69 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-09)
+## Unreleased (2024-12-23)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="stats-base-dists-degenerate-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/degenerate/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/degenerate/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`974b609`](https://github.com/stdlib-js/stdlib/commit/974b6094ed693a4a4fc732f9f0de082e2ab3cf89) - add C implementation for `stats/base/dists/degenerate/variance` [(#4022)](https://github.com/stdlib-js/stdlib/pull/4022)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3548](https://github.com/stdlib-js/stdlib/issues/3548)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3548](https://github.com/stdlib-js/stdlib/issues/3548)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Philipp Burckhardt
 
 </section>
@@ -32,6 +79,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`974b609`](https://github.com/stdlib-js/stdlib/commit/974b6094ed693a4a4fc732f9f0de082e2ab3cf89) - **feat:** add C implementation for `stats/base/dists/degenerate/variance` [(#4022)](https://github.com/stdlib-js/stdlib/pull/4022) _(by Aayush Khanna)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 
 </details>
