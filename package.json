@@ -107,7 +107,8 @@
     "prob",
     "distribution",
     "dist",
-    "degenerate"
+    "degenerate",
+    "univariate"
   ],
   "funding": {
     "type": "opencollective",
