@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-03)
+## Unreleased (2026-06-06)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`9447665`](https://github.com/stdlib-js/stdlib/commit/94476650507644281e2918ef3b9007c712e3decd) - **docs:** update `stats/base/dists/degenerate` TypeScript declarations [(#12600)](https://github.com/stdlib-js/stdlib/pull/12600) _(by stdlib-bot)_
 -   [`b0bd12b`](https://github.com/stdlib-js/stdlib/commit/b0bd12be8db74dcde712428f3fb0086068e558d2) - **chore:** add `univariate` keyword to outliers in `stats/base/dists` [(#12507)](https://github.com/stdlib-js/stdlib/pull/12507) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
